@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.12"
 pytest = "^8.2.0"
 pytest-playwright = "^0.5.0"
+pytest-reporter-html1 = "^0.8.4"
 
 
 [build-system]
