@@ -1,10 +1,11 @@
 # python-playwright
-A demo project to learn how to use Playwight with Python and Poetry for testing.
+A demo project to learn how to use Playwright with Python for testing.
 
 ## Initial Setup
-- Run `poetry init` and add the following Python modules to project: `pytest, pytest-playwright`.
-- Run `poetry install` to install the modules.
-- Run `poetry run playwright install` to install the required browsers.
+- Run `python3 -m venv ./venv`
+- Run `source ./venv/bin/activate`
+- Run `pip3 install -r requirements.txt`
+- Run `pytest tests/test_basic_playwright.py`
 
 ## Run Tests
 - `poetry run pytest` runs all tests in the project in headless mode where you don't see the browser
